@@ -26,10 +26,10 @@ export default function LoadingPage() {
           &#9776;
         </div>
         <div className="logo">
-          <span>    </span>UNIVERSITY
+          <span>  Rc  </span>UNIVERSITY
           <br/> RESEARCH CELL
         </div>
-        <div className="user-icon">&#128100;</div>
+        <div className="user-icon" onClick={toggleLogin}>&#128100;</div>
       </header>
 
       {menuOpen && (
@@ -50,7 +50,7 @@ export default function LoadingPage() {
         </h1>
 
         <div className="search-container">
-          <div className="search-wrapper" onClick={toggleLogin}>
+          <div className="search-wrapper" >
             <input
               type="text"
               className="search-box"
