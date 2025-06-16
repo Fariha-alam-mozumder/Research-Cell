@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# University Reaserch Cell Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack web application designed to manage and streamline the activities of a university research cell. The frontend is built using **React.js**, and the backend will be developed using **Express.js**, **Prisma ORM**, **PostgreSQL**, and **JWT** for authentication.
 
-## Available Scripts
+> This project is submitted in partial fulfillment of the requirements for the **Web Engineering Lab (CSE 616)** course,  
+> under the supervision of **Rokan Uddin Faruqui**, Associate Professor,  
+> Department of Computer Science and Engineering, University of Chittagong.
 
-In the project directory, you can run:
+> 🔧 **Backend development is in progress.** 
 
-### `npm start`
+## 🔧 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React.js
+- CSS (or Tailwind/Bootstrap if applicable)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend (Planned)
+- Express.js
+- PostgreSQL (Relational Database)
+- Prisma ORM (for database queries)
+- JWT (JSON Web Token for authentication)
 
-### `npm test`
+## Current Progress
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  Landing page created (React)
+-  Signup/Login modal implemented
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing Page
+![Landing Page Screenshot](screenshots/landing.pnglanding.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login Modal
+![Login Modal Screenshot](screenshots/login.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Signup Modal
+![Signup Modal Screenshot](screenshots/signup.png)
 
-### `npm run eject`
+## Project Structure
+Reasearch-Cell/
+├── public
+├──src/
+│ ├── App.css
+│ ├── App.js
+│ ├── landing.css
+│ ├── LandingPage.js
+│ ├── sign_up.jsx
+│ └── signup.css
+├── README.md
+└── package.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 How to Run (Frontend Only)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Fariha-alam-mozumder/Research-Cell.git
+   cd Reasearch-Cell
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
+    ```bash
+    npm install
+3. Start the development server:
+    ```bash 
+    npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Team Members
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Group 7
+- Mst. Erina Akter – ID: 21701016  
+- Humayratul Ekta – ID: 21701030  
+- Fariha Alam Mozumder – ID: 21701039  
 
-### Code Splitting
+### Group 20
+- Umme Fahmida Trisha – ID: 20701027  
+- Toasean Elmah – ID: 20701051  
+- Dipannita Das – ID: 21701027  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is intended for academic purposes only.
