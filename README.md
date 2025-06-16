@@ -31,10 +31,10 @@ This is a full-stack web application designed to manage and streamline the activ
 ![Landing Page Screenshot](./assets/landing.png)
 
 ### Login Modal
-![Login Modal Screenshot](screenshots/login.png)
+![Login Modal Screenshot](./assets/login.png)
 
 ### Signup Modal
-![Signup Modal Screenshot](screenshots/signup.png)
+![Signup Modal Screenshot](./assets/signup.png)
 
 ## Project Structure
 Reasearch-Cell/
