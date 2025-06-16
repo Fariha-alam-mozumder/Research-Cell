@@ -28,7 +28,7 @@ This is a full-stack web application designed to manage and streamline the activ
 ## Screenshots
 
 ### Landing Page
-![Landing Page Screenshot](assets.landing.png)
+![Landing Page Screenshot](./assets/landing.png)
 
 ### Login Modal
 ![Login Modal Screenshot](screenshots/login.png)
