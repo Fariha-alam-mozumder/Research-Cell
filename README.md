@@ -2,8 +2,9 @@
 
 This is a full-stack web application designed to manage and streamline the activities of a university research cell. The frontend is built using **React.js**, and the backend will be developed using **Express.js**, **Prisma ORM**, **PostgreSQL**, and **JWT** for authentication.
 
-> This project is submitted in partial fulfillment of the requirements for the **Web Engineering Lab (CSE 616)** course,  
-> under the supervision of **Rokan Uddin Faruqui**, Associate Professor,  
+> This project is submitted in partial fulfillment of the requirements for the **Web Engineering Lab (CSE 616)** course, under the supervision of
+> **Rokan Uddin Faruqui**,
+> Associate Professor,  
 > Department of Computer Science and Engineering, University of Chittagong.
 
 > 🔧 **Backend development is in progress.** 
@@ -37,17 +38,17 @@ This is a full-stack web application designed to manage and streamline the activ
 ![Signup Modal Screenshot](./assets/signup.png)
 
 ## Project Structure
-Reasearch-Cell/
-├── public
-├──src/
-│ ├── App.css
-│ ├── App.js
-│ ├── landing.css
-│ ├── LandingPage.js
-│ ├── sign_up.jsx
-│ └── signup.css
-├── README.md
-└── package.json
+Reasearch-Cell/ <br>
+├── public <br>
+├──src/ <br>
+│ ├── App.css <br>
+│ ├── App.js <br>
+│ ├── landing.css <br>
+│ ├── LandingPage.js <br>
+│ ├── sign_up.jsx <br>
+│ └── signup.css <br>
+├── README.md <br>
+└── package.json <br>
 
 
 ## 🚀 How to Run (Frontend Only)
